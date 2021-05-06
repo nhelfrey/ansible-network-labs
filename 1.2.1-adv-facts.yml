@@ -19,7 +19,7 @@
     - name: COLLECT OUTPUT OF SHOW COMMANDS
       ios_command:
         commands:
-          - show run | i hostname
+          - show run | i snmp
       tags: show
       register: show_output
 
